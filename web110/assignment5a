@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Assignment 5a</title>
+</head>
+<body>
+<h1>
+HTML
+</h1>
+<p>
+In this session so far, I learned that websites are comprised of HTML, CSS, and Javascript. 
+HTML is the content, CSS is style and layout, and Javascript is interactive features. It was
+quite eye-opening to understand what these "codes" we've been using for our assignments were. 
+This activity also taught me how to mass edit all the assignments using the Github Editor- a
+very useful tool to revise multiple files at once. The editor had other useful features like
+autofill. I feel that this activity brought everything together especially with the Github
+format we've been using for our assignments. It's interesting that you can use a relative link
+to navigate to another html file, which allows for a pretty sizeable project. 
+</p>
+</body>
+</html>
