@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Assignment 8</title>
+    <link rel="stylesheet" type="text/css" href="external styles.css">
+  </head>
+  <body>
+    <h1>Database Queries</h1>
+        <ul>
+            <li>
+                SELECT CustomerName,City FROM Customers;
+            </li>
+            <li>
+               SELECT * FROM Customers
+                WHERE Country='USA';
+            </li>
+            <li>
+                SELECT COUNT(*)
+                FROM Products;
+            </li>
+            <li>
+                INSERT INTO Customers
+                VALUES ('Cardinal', 'Tom B. Erichsen', 'Skagen 21', 'Stavanger', '4006', 'Norway');
+            </li>
+            <li>
+                UPDATE Customers
+                SET ContactName = 'Alfred Schmidt', City= 'Frankfurt'
+                WHERE CustomerID = 1;
+            </li>
+        </ul>
+    <p>
+        For this assignment, I reviewed various methods of querying through SQL statements. After manually pulling information
+        by flipping through tables and looking at the relationship diagram last week, I was reminded how SQL can effectively 
+        pull information without any hassle. Not only can I look up data, but I can add, change, or delete data by using the
+        same SQL language. Many database management software today still use SQL as it dominates the database management discourse.
+        I feel that the emerging AI technology will strongly affect this field in many ways since AI works similarly by pulling from
+        data and information being fed to it. 
+    </p>
+  </body>
+</html>
